@@ -28,7 +28,7 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 - Company-the name of car
 
 ## Installation
--step 1- data clearing
+# step 1- data clearing
 
 
 !pip install pandas
@@ -56,7 +56,7 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 
 -clearing data by using the pandas
 
--step 2- data ananlyics
+# step 2- data ananlyics
 
 
 -!pip install matplotlib.pyplot
@@ -68,7 +68,7 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 -this libray are using for ananlying the data and detecting the outlayer
 
 
--step 3- feature engineering
+# step 3- feature engineering
 
 
 -pip install scikit-learns--------this will help in feature engineering and building models
@@ -93,7 +93,7 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 
 
 
-step 4-model building
+# step 4-model building
 
 
 from sklearn.linear_model import LinearRegression--this ml alrogithm which used to build the data
@@ -103,13 +103,13 @@ step 5-valiadation of model
 
 from sklearn.metrics import r2_score---valadiation of model using r2_score 
 
-step 6---saving model into files
+# step 6---saving model into files
 
 
 import pickle--this used saving model into a file 
 
 
-step7---deplovement of model
+# step7---deplovement of model
 
 
 pip install streamlit 

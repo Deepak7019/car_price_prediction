@@ -18,7 +18,9 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 ## Features
 
 - Name- The model of car
+- 
 - Label-Primmum of car
+
 - Location- location of car
 - Price-price of car
 - Kms_driven-car using based on kms

@@ -29,6 +29,8 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 
 ## Installation
 -step 1- data clearing
+
+
 !pip install pandas
 # problem in data 
 -unnamed is unused columns so have to remove
@@ -55,34 +57,64 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 -clearing data by using the pandas
 
 -step 2- data ananlyics
+
+
 -!pip install matplotlib.pyplot
--!pip install seaborn 
+
+
+-!pip install seaborn
+
+ 
 -this libray are using for ananlying the data and detecting the outlayer
 
 
 -step 3- feature engineering
+
+
 -pip install scikit-learns--------this will help in feature engineering and building models
+
+
 -from sklearn.model_selection import train_test_split--used for spliting the data into test and train
--from sklearn.preprocessing import OneHotEncoder --- this used to convert the catagorial values into the number 
+
+
+-from sklearn.preprocessing import OneHotEncoder --- this used to convert the catagorial values into the number
+
+
 -from sklearn.preprocessing import StandardScaler--this is uesd for standandazation of large values into btw 0 to 1
+
+
 -from sklearn.preprocessing import OrdinalEncoder--this to label the data
+
+
 -from sklearn.compose import make_column_transformer---to transformcolumns into numbers
+
+
 -from sklearn.pipeline import make_pipeline--its the path from tranform  columns the data for modeling
 
 
 
 step 4-model building
+
+
 from sklearn.linear_model import LinearRegression--this ml alrogithm which used to build the data
 
 step 5-valiadation of model
+
+
 from sklearn.metrics import r2_score---valadiation of model using r2_score 
 
 step 6---saving model into files
+
+
 import pickle--this used saving model into a file 
 
 
 step7---deplovement of model
+
+
 pip install streamlit 
+
+
 import streamlit --this used for deplovement of moidel
 
 ```bash

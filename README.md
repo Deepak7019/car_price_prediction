@@ -32,12 +32,26 @@ its has 9 feature and by using 8 feature we are predicting the price of car
 !pip install pandas
 # problem in data 
 -unnamed is unused columns so have to remove
+
+
 -ower have more null values so have to remove
+
+
 -the price as rupee symbol and its object need remove symbol convert into int
+
+
 -in price its contains columns  "ask price" this could remove 
+
+
 -kms_driven is  object and km content in values so need remove km and convert object into int
+
+
 -name columns is complex
+
+
 -in fuel there same indication of petrol so gap should remove
+
+
 -clearing data by using the pandas
 
 -step 2- data ananlyics
